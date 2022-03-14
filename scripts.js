@@ -16,8 +16,27 @@ $('#product,.infop').click(function(){
 
 
 //hover effects on portfolio
-
-
+let portfolios = [
+    "pic1",
+    "pic2",
+    "pic3",
+    "pic4",
+    "pic5",
+    "pic6",
+    "pic7",
+    "pic8",
+  ];
+  
+  portfolios.forEach((portfolio) => {
+    $(`.${portfolio}`).hover(
+      () => {
+        $(`.${portfolio} .text-block`).css("opacity", 1);
+      },
+      () => {
+        $(`.${portfolio} .text-block`).css("opacity", 0);
+      }
+    );
+  });
 //get data from form
 
 let fName = document.getElementById("name").value;
