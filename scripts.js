@@ -1,23 +1,22 @@
-let name = document.getElementById("name").value;
+let columns = ["design1", "development1", "product1"];
+
+columns.forEach((col) => {
+  $(`#${col}-col`).click((e) => {
+    //prevent the page from going to the top
+    e.preventDefault();
+
+    $(`.${col}-info`).toggle();
+    $(`#${col}-development img`).toggle();
+    $(`#${col}-development p`).toggle();
+  });
+});
+
+
+
+let fName = document.getElementById("name").value;
 let email = document.getElementById("email").value;
 let message = document.getElementById("message").value;
 
-
-
-
-let response = (name,email,message)=>{
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
-
-
-    if (name=="") {
-        alert("Enter a valid Name");
-      } else if (email=="") {
-        alert("enter a valid email");
-      } else if (message=="") {
-        alert("Enter a valid message");
-      } else {
-        alert("ok");
-      }
-}   
+console.log(fName);
+console.log(email);
+console.log(message);
