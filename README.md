@@ -1,8 +1,11 @@
 # DELANI STUDIO
 
 
+ Website Design |
+  - [Design picture](assets/%20Delani%20Studio.jpg)
+
 Website link |
-Created using github: https://kleitich.github.io/Akan-Name//
+Created using github: https://kleitich.github.io/Delani-studio/
 
  
 ## Table of Contents
