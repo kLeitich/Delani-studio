@@ -20,9 +20,7 @@
 .img-fluid{
     padding: 10% 0 0 0 ;
 }
-/* .info{
-    display: none;
-} */
+
 .design{
     background-color: transparent;
     border: none;
@@ -47,3 +45,18 @@
     background-repeat: no-repeat;
     color: white;
 }
+/* start of portfolio */
+.pic{
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    right: 10%;
+    bottom: 7%;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+ }
