@@ -9,6 +9,31 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    font-size: xx-large;
+}
+.btxt h1{
+    padding: 5% 0 0 0;
+}
+.btxt p{
+    padding: 0 0 5% 0;
+}
+.img-fluid{
+    padding: 10% 0 0 0 ;
+}
+.info{
+    display: none;
+}
+.design{
+    background-color: transparent;
+    border: none;
+}
+.dev{
+    background-color: transparent;
+    border: none;
+}
+.product{
+    background-color: transparent;
+    border: none;
 }
 .services{
     background-image: url(assets/backgrounds/s_image.jpg);
