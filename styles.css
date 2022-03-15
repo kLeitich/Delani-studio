@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner{
@@ -44,6 +45,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+.contact-success{
+    display:none;
+    font-size: 100px;
 }
 /* start of portfolio */
 .pic{

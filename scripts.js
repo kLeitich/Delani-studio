@@ -67,15 +67,33 @@ form.addEventListener('submit',(event)=>{
     let message = document.getElementById("message").value;
     correctEmail(email);
     CorrectNameMessage(fName,message);
-
-     if (fName != "" && email != "" && message != "") {
-        alert("Message sent")
-        $("#userInput").trigger("reset");
-      };
-
-
+    if (fName != "" && email != "" && message != "") {
+      alert("Message Sent")
+      $("#userInput").trigger("reset");
+    };
+    
 });
 
+//contact form
+
+// const SuccessContact = (name,email,message)=>{
+
+//   if (fName != "" && email != "" && message != "") {
+    
+
+
+//     $('#userInput').hide();
+//     $('.btn,.contact-success').click(function(){
+// 		$('#userInput,.contact-success').toggle();
+//     });
+
+
+// }};
+
+// $("#userInput").hide();
+    // $('#userInput').submit(function(){
+    // $(".contact-success").show()});
+    // $("#userInput").trigger("reset");
 
 //mail api
 
@@ -114,5 +132,4 @@ form.addEventListener('submit',(event)=>{
 //   .then(data => console.log(data))
 //     .catch ((err) => {
 //         console.log(err);
-// })
-
+// });
